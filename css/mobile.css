@@ -1,0 +1,68 @@
+@media (max-width: 768px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .mockup > .flex {
+        flex-wrap: wrap-reverse;
+    }
+
+    .text-left,
+    .banner-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-left h1 {
+        font-size: 35px;
+    }
+
+    .text-left button {
+        margin-bottom: 20px;
+    }
+
+    .why-choose {
+        text-align: center;
+    }
+
+    .diff-box {
+        width: calc(100% / 2);
+    }
+
+    .last-articles {
+        text-align: center;
+    }
+
+    .last-articles h2 {
+        margin: 0 auto;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .footer-items {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .rights {
+        text-align: center;
+    }
+
+    .rights p {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .diff-box {
+        width: 100%;
+    }
+}
