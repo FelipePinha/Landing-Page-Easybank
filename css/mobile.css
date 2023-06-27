@@ -1,3 +1,4 @@
+/* Breakpoints */
 @media (max-width: 768px) {
     .flex {
         flex-wrap: wrap;
@@ -19,6 +20,11 @@
 
     .text-left button {
         margin-bottom: 20px;
+    }
+
+    .why-choose h2,
+    .last-articles h2 {
+        font-size: 30px;
     }
 
     .why-choose {
@@ -58,6 +64,42 @@
 
     .rights p {
         margin-top: 20px;
+    }
+
+    /* Menu Mobile */
+    header {
+        padding: 24px 0;
+    }
+
+    header .menu-items,
+    .request-btn {
+        display: none;
+    }
+
+    header .menu-mobile {
+        display: block;
+    }
+
+    .menu-mobile img {
+        cursor: pointer;
+        width: 36px;
+    }
+
+    .items-menu-mobile {
+        position: fixed;
+        top: -100%;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+        background-color: #fff;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .items-menu-mobile a {
+        display: block;
+        margin-top: 15px;
+        color: hsl(233, 26%, 24%);
     }
 }
 

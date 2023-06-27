@@ -72,6 +72,11 @@ header > .center {
     border-bottom: 3px solid #31d35c;
 }
 
+header .menu-mobile {
+    display: none;
+}
+
+/* mockup */
 .mockup {
     width: 100%;
 }
