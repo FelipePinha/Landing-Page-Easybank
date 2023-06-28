@@ -17,4 +17,4 @@
 
 </div>
 
-![easybank](https://github.com/FelipePinha/Landing-Page-Easybank/assets/50679370/97d86c76-f89f-4bed-bc62-ddea6a42a706)
+![easybank](https://github.com/FelipePinha/Landing-Page-Easybank/assets/50679370/0fdb6426-5ff6-4548-9d7b-fdc591583d58)
